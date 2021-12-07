@@ -660,7 +660,7 @@ void find_cutpoints() {
 - visited[to]=false - the edge is part of DFS tree;
 - visited[to]=true && to≠parent - the edge is back edge to one of the ancestors;
 - to=parent - the edge leads back to parent in DFS tree
-### <u__Code__</u>
+### <u>__Code__</u>
 ```C++
 int n; // number of nodes
 vector<vector<int>> adj; // adjacency list of graph
